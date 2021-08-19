@@ -1,0 +1,26 @@
+<Project>
+
+  <PropertyGroup>
+    <LangVersion>10.0</LangVersion>
+    <UserSecretsId>245a3625-4b8b-444e-98e1-e9394cf2a531</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Author>Alex Vincent</Author>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <!-- IDE1006 - suppress roslyn naming convention messages -->
+    <!-- IDE0079 - Remove unnecessary suppression -->
+    <NoWarn>IDE1006;IDE0079</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <!-- suppress 'Unreachable code detected' -->
+    <NoWarn>CS0162</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNet.ReproducibleBuilds" Version="0.1.66" PrivateAssets="All"/>
+  </ItemGroup>
+
+</Project>
