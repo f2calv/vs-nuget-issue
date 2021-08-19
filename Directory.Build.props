@@ -20,7 +20,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DotNet.ReproducibleBuilds" Version="0.1.66" PrivateAssets="All"/>
+    <PackageReference Include="DotNet.ReproducibleBuilds" Version="0.1.64" PrivateAssets="All"/>
   </ItemGroup>
 
 </Project>
