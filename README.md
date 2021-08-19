@@ -5,6 +5,8 @@
 - VS finds outdated NuGet dependencies in Directory.Build.props - GREAT :)
 - When you attempt to update that outdated dependency instead of updating the `Directory.Build.props` file VS adds the new dependency version to all CSPROJ files instead - NOT GREAT :(
 
+[GitHub Issue](https://github.com/NuGet/Home/issues/10850)
+
 ## Unable to ignore outdated dependencies
 
 MyLibrary.csproj has multiple target frameworks, a package reference for the netstandard2.0 target is deliberately old due to breaking changes in newer versions;
