@@ -1,5 +1,9 @@
 # Annoyances in Visual Studio 2019/2022
 
+> [!IMPORTANT]
+> This repository has been retired and is no longer maintained. It is retained for historical
+> reference and should not be treated as supported or secure production guidance.
+
 ## Directory.Build.props
 
 - VS finds outdated NuGet dependencies in Directory.Build.props - GREAT :)
